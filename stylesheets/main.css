@@ -1,0 +1,237 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #FFFFFF;
+	font: 13px/15px Verdana, Arial, Helvetica, sans-serif;
+}
+img {
+	border: none;
+}
+table, tr, td, tr {
+	border-collapse: collapse;
+	vertical-align: top;
+	text-align: left;
+	font: 13px/15px Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color: #8D0D19;
+}
+#header {
+	height: 60px;
+	text-align: left;
+	background: #1A446C;
+	color: #D4E6F4;
+	padding-top:10px
+}
+#header h1 {
+	padding: 1em;
+	margin: 0;
+}
+#header h1 a {
+	color:#FFF;
+	text-decoration:none;
+}
+.wrapper {
+	width:960px;
+	margin:auto;
+}
+/* Note: IE 5 & 6 won't understand min-height */
+#main {
+	min-height: 500px;
+	background: #EEE4B9;
+	padding: 2em;
+}
+#footer {
+	height: 2em;
+	padding: 1em;
+	text-align: center;
+	background: #1A446C;
+	color: #D4E6F4;
+}
+table.bordered tr th, table.bordered tr td {
+	border: 1px solid #000000;
+}
+#pagination .selected {
+	font-weight: bold;
+	color: #8D0D19;
+}
+#navigation {
+	width: 950px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background: url(images/navigation-bg.jpg) no-repeat left top;
+}
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation ul li {
+	display: inline;
+	margin: 0px;
+}
+#navigation ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #3B3B3B;
+	text-decoration: none;
+	background: url(images/navigation-separator.png) no-repeat right center;
+}
+#navigation ul li a:hover {
+	color:#0074a5;
+	background: url(images/navigation-hover.png) repeat-x left top;
+}
+#navigation ul li#active a {
+	color:#0074a5;
+	background: url(images/navigation-hover.png) repeat-x left top;
+}
+/**LOGIN **/
+
+#login {
+	margin: auto;
+	padding: 30px 0 0;
+	width: 320px;
+}
+#login form {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #E5E5E5;
+	box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+	font-weight: normal;
+	margin-left: 8px;
+	padding: 26px 24px 46px;
+}
+#login #nav, #login #backtoblog {
+*	margin: 0 0 0 16px;
+	padding: 16px 16px 0;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+#login label {
+	color: #777777;
+	font-size: 14px;
+}
+#login form .input {
+	background: none repeat scroll 0 0 #FBFBFB;
+	border: 1px solid #E5E5E5;
+	box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.2) inset;
+	font-size: 24px;
+	font-weight: 200;
+	line-height: 1;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: medium none;
+	padding: 3px;
+	width: 100%;
+}
+#login .button-primary {
+	float: right;
+	font-size: 13px !important;
+	line-height: 16px;
+	padding: 3px 10px;
+}
+.submit {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin: 5px 0;
+	padding: 1.5em 0;
+}
+input.button-primary, button.button-primary, a.button-primary {
+	background: url("images/button-grad.png") repeat-x scroll left top #21759B;
+	border-color: #298CBA;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.submit input, .button, input.button, .button-primary, input.button-primary, .button-secondary, input.button-secondary, .button-highlighted, input.button-highlighted, #postcustomstuff .submit input {
+	-moz-box-sizing: content-box;
+	border-radius: 11px 11px 11px 11px;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	font-size: 12px !important;
+	line-height: 13px;
+	padding: 3px 8px;
+	text-decoration: none;
+}
+/**REGISTRATION***/
+.myform {
+	margin:0 auto;
+	width:400px;
+	padding:14px;
+}
+/* ----------- stylized ----------- */
+#stylized {
+	border:solid 2px #b7ddf2;
+	background:#ebf4fb;
+}
+#stylized h1 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+#stylized p {
+	font-size:11px;
+	color:#666666;
+	margin-bottom:20px;
+	border-bottom:solid 1px #b7ddf2;
+	padding-bottom:10px;
+}
+#stylized label {
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+#stylized .small {
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#stylized input, #stylized select {
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+#stylized button {
+	clear:both;
+	margin-left:150px;
+	width:125px;
+	height:31px;
+	background:#666666 url(img/button.png) no-repeat;
+	text-align:center;
+	line-height:31px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.message{
+	color:red
+	
+}
